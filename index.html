@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!--Google fonts css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--my css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 22px;
+            text-align: center;
+            height: 50px;
+            background-color: hsl(7, 99%, 70%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header_nav-desktop container">
+            <div class="header_nav-logo header_nav-item">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="header_nav-menu header_nav-item">
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <button class="header_nav-btn">
+                    contact
+                       </button>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="nav-mobile">
+            <div class="mobile_nav-logo">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div id="hamburger" class="mobile_nav-hamburger">
+                <img src="images/icon-hamburger.svg" alt="">
+            </div>
+            <div id="menu" class="mobile_nav-menu">
+                <div class="monile_nav-menu-items">
+                    <ul>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                        <button class="header_nav-btn">
+                    contact
+                       </button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="header_hading">
+            WE ARE CREATIVES
+        </h1>
+        <img src="images/icon-arrow-down.svg" alt="" class="header_img">
+    </header>
+
+    <main class="main main_container">
+        <div class="main-item main_container-text">
+            <div class="main_text-section">
+                <h2 class="main_text-heading">
+                    Transform your brand
+                </h2>
+                <p class="main_text-pera">
+                    We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+                </p>
+                <div class="main_section-more">
+                    <a href="#" class="main_text-more">
+                             LEARN MORE
+                    </a>
+                    <hr class="main_line">
+                </div>
+            </div>
+        </div>
+        <div class="main-item main_container-transform-img ">
+
+        </div>
+        <div class="main-item main_container-standOut-img">
+
+        </div>
+        <div class="main-item main_container-text">
+            <div class="main_text-section">
+                <h2 class="main_text-heading">
+                    Stand out to the right audience
+                </h2>
+                <p class="main_text-pera">
+                    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+                </p>
+                <div class="main_section-more">
+                    <a href="#" class="main_text-more">
+                             LEARN MORE
+                    </a>
+                    <hr class="main_line">
+                </div>
+            </div>
+        </div>
+        <div class="main-item main_container-graphicDesign-img">
+            <div class="main_graphicDesign-text">
+                <h3 class="graphic-design-heading dark-green">
+                    Graphic design
+                </h3>
+                <p class="graphic-design-pera dark-green-p">
+                    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+                </p>
+            </div>
+        </div>
+        <div class="main-item  main_container-photograpy-img">
+            <div class="main_graphicDesign-text">
+                <h3 class="graphic-design-heading dark-blue-heading">
+                    Graphic design
+                </h3>
+                <p class="graphic-design-pera dark-blue-p">
+                    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <section class="testimonials_section">
+        <h1 class="testimonial_heading">Client testimonials</h1>
+        <div class="testimonials_container">
+            <div class="testimonial-item">
+                <img src="images/image-emily.jpg" alt="" class="client-img">
+                <p class="client-text">
+                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                </p>
+                <strong class="client-name">
+                    Emily R.
+                </strong>
+                <span class="client-position">
+                    Marketing Director
+                </span>
+            </div>
+            <div class="testimonial-item">
+                <img src="images/image-jennie.jpg" alt="" class="client-img">
+                <p class="client-text">
+                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                </p>
+                <strong class="client-name">
+                    Emily R.
+                </strong>
+                <span class="client-position">
+                    Marketing Director
+                </span>
+            </div>
+            <div class="testimonial-item">
+                <img src="images/image-thomas.jpg" alt="" class="client-img">
+                <p class="client-text">
+                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                </p>
+                <strong class="client-name">
+                    Emily R.
+                </strong>
+                <span class="client-position">
+                    Marketing Director
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-gellary">
+        <div class="img_gellary-item">
+            <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="gaellary-img">
+        </div>
+        <div class="img_gellary-item">
+            <img src="images/desktop/image-gallery-orange.jpg" alt="" class="gaellary-img">
+        </div>
+        <div class="img_gellary-item">
+            <img src="images/desktop/image-gallery-cone.jpg" alt="" class="gaellary-img">
+        </div>
+        <div class="img_gellary-item">
+            <img src="images/desktop//image-gallery-sugarcubes.jpg" alt="" class="gaellary-img">
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <img src="images/logo.svg" alt="" class="footer-logo">
+            <div class="footer-link">
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-socila">
+                <a href="#" class="footer-icon">
+                    <img src="images/icon-facebook.svg" alt="">
+                </a>
+                <a href="#" class="footer-icon">
+                    <img src="images/icon-instagram.svg" alt="">
+                </a>
+                <a href="#" class="footer-icon">
+                    <img src="images/icon-twitter.svg" alt="">
+                </a>
+                <a href="#" class="footer-icon">
+                    <img src="images/icon-pinterest.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank "> Frontend Mentor </a>. Coded by <a href="# ">Tajul Islam Refath</a>.
+    </div>
+    <!-- Js -->
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>
